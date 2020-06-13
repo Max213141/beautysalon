@@ -1,0 +1,103 @@
+header.view {
+    background-size: cover;
+}
+
+.navbar {
+    background: linear-gradient(
+        to bottom,
+        rgb(80, 80, 80), 
+        rgba(44, 44, 44, 0.1)
+      );
+}
+
+.top-nav-collapse {
+    background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgb(255, 255, 255);
+    }
+}
+.carousel-indicators--round li {
+    border-radius: 10px;
+    margin: 1px 3px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid rgb(44, 43, 43);
+    background-color: transparent;
+}
+.carousel-indicators .active {
+    background-color: rgb(44, 43, 43);
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.kranpic{
+    position: absolute;
+    left: -40px;
+    top: 90px;
+    z-index: 702;
+}
+.kranpic1{
+    position: absolute;
+    left: 10px;
+    top: 177px;
+    z-index: 701;
+}
+.kranpic2{
+    position: absolute;
+    left: -70px;
+    top: 60px;
+    z-index: 703;
+}
+.texts{
+    padding: 5rem 9rem;
+    background-color: black;
+    color:white;
+    height: 640px;
+}
+.services{
+    background-color: white;
+    color: black;
+}
+.services0{
+    background-color: black;
+}
+@media (max-width:991.5px){
+    .texts{
+        padding: 3rem 6rem;
+        justify-content: center;
+        background-color: black;
+        color:white;
+        max-height: 600px;
+    }
+    .services{
+        background-color: black;
+        color: white;
+    }
+     
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.contacts{
+    background: black;
+}
+
+/* html,
+body,
+header,
+.view {
+  height: 75%;
+} */
